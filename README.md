@@ -13,7 +13,6 @@ Este é o meu portfólio profissional, onde apresento minhas experiências, proj
 
 HTML5<br>
 CSS3<br>
-JavaScript (se necessário para futuras interações)<br>
 
 ##📷 Visual
 
