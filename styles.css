@@ -1,0 +1,162 @@
+body {
+    display: flex;
+    font-family: "JetBrains Mono", serif;
+    background-color: #d3d3d3;
+    color: black;
+    margin: 0;
+}
+.sidebar {
+    width: 250px;
+    background: linear-gradient(180deg, #145367, #0D1B25);
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    box-shadow: 15px 0 25px rgba(0, 0, 0, 0.5);
+}
+.profile {
+    text-align: center;
+    margin-top: 50px;
+}
+.profile img {
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.profile h2, .profile p {
+    text-align: center;
+}
+
+.profile p {
+    padding-bottom: 20px;
+}
+
+.content h2 {
+    font-size: 40px;
+    margin-left: 30px;
+    background: linear-gradient(180deg, #145367, #0D1B25);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.experience {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 30px;
+}
+
+.experience-item {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, #145367, #0D1B25);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.experience-info {
+    flex: 1;
+}
+
+.experience-info h3 {
+    margin-left: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.experience-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    margin: 20px 0;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+    transition: background 0.3s, transform 0.3s;
+}
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+    border-radius: 5px;
+}
+.content {
+    flex: 1;
+    padding: 30px 0 0 300px;
+}
+.content h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-left: 30px;
+    background: linear-gradient(180deg, #145367, #0D1B25);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.content p {
+    font-size: 18px;
+    padding: 0 30px 0 30px;
+    
+}
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.project button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, #145367, #0D1B25);
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    transition: background 0.3s, transform 0.2s;
+    overflow: hidden;
+}
+.project button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.project button p {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 80px;
+    display: block;
+    width: 100%;
+    background: transparent;
+    color: white;
+}
+.project button:hover {
+    background-color: #3b0a3b;
+    transform: scale(1.05);
+}
+
